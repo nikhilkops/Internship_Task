@@ -18,7 +18,7 @@ function Left() {
                   {items.map((item, i) => {
                     return (
                       <li
-                        keys={i * 100 * Math.random().toString()}
+                        key={item.toString()}
                         className={
                           item === "Acelofenac" || item === "500mg"
                             ? "highlight"
