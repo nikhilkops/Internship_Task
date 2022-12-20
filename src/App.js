@@ -1,12 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 import NavBar from "./components/Nav_Bar/Nav_Bar";
 import BreadCrumb from "./components/BreadCrumb/BreadCrumb";
 import Search from "./components/Search/Search";
 import ResultText from "./components/ResultText/ResultText";
-import Left_Hero from "./components/Hero/Left/Left";
-import Right_Hero from "./components/Hero/Right/Right";
+
 import Combine from "./components/Hero/combine";
 function App() {
   return (

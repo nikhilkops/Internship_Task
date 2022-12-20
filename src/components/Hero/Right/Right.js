@@ -12,25 +12,31 @@ function Right() {
         return (
           <div className="product-card">
             <div>
-              <img src={image} alt="medicine-image" className="product-image" />
+              <input
+                type="image"
+                img="true"
+                src={image}
+                alt="medicine-image"
+                className="product-image"
+              />
             </div>
             <div className="product-heading">
-              <a>Fevipiravir 400mg(Fabiflu Tablets)</a>
+              <a href="/#">Fevipiravir 400mg(Fabiflu Tablets)</a>
             </div>
             <div className="product-price">
               <span> Rs 1,775 </span>
-              <a>/ stripe</a>
+              <a href="/#">/ stripe</a>
             </div>
             <div className="product-company">
-              <a>Glenmark Pharmaceutical Limited</a>
+              <a href="/#">Glenmark Pharmaceutical Limited</a>
             </div>
             <div className="company-address">
               {/* <a>Address</a> */}
-              <a> PARIVAT PATTYA, SURAT, GUJRAT</a>
+              <a href="/#"> PARIVAT PATTYA, SURAT, GUJRAT</a>
             </div>
             <div className="contact-supplier">
               <FaTelegramPlane />
-              <a>Contact Supplier</a>
+              <a href="/#">Contact Supplier</a>
             </div>
 
             <div className="border"></div>
