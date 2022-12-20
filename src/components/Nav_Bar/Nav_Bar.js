@@ -8,13 +8,16 @@ function Nav_Bar() {
     <>
       <nav>
         <header className="header">
-          <div className="logo">Medical Darpan</div>
+          <div className="logo">
+            {" "}
+            <div className="box"></div>Medical Darpan
+          </div>
 
           <nav className="main-nav">
             <ul className="main-nav-list">
               {list.map((val, j) => {
                 return (
-                  <li>
+                  <li key={val + j}>
                     <a className="main-nav-link">{val}</a>
                   </li>
                 );
@@ -22,7 +25,7 @@ function Nav_Bar() {
             </ul>
           </nav>
 
-          <div class="Login">
+          <div className="Login">
             <span> Login </span>
             <AiOutlineUser className="Login-Icon" />
           </div>

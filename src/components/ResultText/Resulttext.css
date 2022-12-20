@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.tags-list {
+  display: flex;
+  gap: 10px;
+}
 .remove-tags {
   color: #750b0b;
   font-weight: bold;

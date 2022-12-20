@@ -5,20 +5,22 @@ import tags from "./tags";
 function ResultText() {
   return (
     <>
-      <section class="Results">
+      <section className="Results">
         <div className="search-result">
-          <a class="main-search">Paracetamol</a>
+          <a className="main-search">Paracetamol</a>
           <a className="no-of-products"> (128 products)</a>
         </div>
 
         <div className="tags">
-          {tags.map((val, i) => {
-            return (
-              <span class="tag">
-                <a>{val} &#10005;</a>
-              </span>
-            );
-          })}
+          <ul className="tags-list">
+            {tags.map((val, i) => {
+              return (
+                <li className="tag" key={val + i}>
+                  <a>{val} &#10005;</a>
+                </li>
+              );
+            })}
+          </ul>
 
           <span className="remove-tags">Remove All</span>
         </div>

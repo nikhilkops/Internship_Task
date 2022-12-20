@@ -6,7 +6,7 @@ import { AiOutlineRight } from "react-icons/ai";
 function BreadCrumb() {
   return (
     <>
-      <div class="breadcrumb">
+      <div className="breadcrumb">
         <a>
           Medical Darpan <AiOutlineRight />
         </a>

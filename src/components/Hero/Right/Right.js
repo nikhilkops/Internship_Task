@@ -7,7 +7,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 const pro = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function Right() {
   return (
-    <section class="right-hero">
+    <section className="right-hero">
       {pro.map((value, i) => {
         return (
           <div className="product-card">
