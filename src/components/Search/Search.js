@@ -6,9 +6,7 @@ function Search() {
       <form className="Search">
         <input type="text" name="search" placeholder="Search.." />
         <div>
-          <a className="Search-btn" href="/#">
-            Search
-          </a>
+          <a className="Search-btn">Search</a>
         </div>
       </form>
     </>

@@ -21,22 +21,22 @@ function Right() {
               />
             </div>
             <div className="product-heading">
-              <a href="/#">Fevipiravir 400mg(Fabiflu Tablets)</a>
+              <a>Fevipiravir 400mg(Fabiflu Tablets)</a>
             </div>
             <div className="product-price">
               <span> Rs 1,775 </span>
-              <a href="/#">/ stripe</a>
+              <a>/ stripe</a>
             </div>
             <div className="product-company">
-              <a href="/#">Glenmark Pharmaceutical Limited</a>
+              <a>Glenmark Pharmaceutical Limited</a>
             </div>
             <div className="company-address">
               {/* <a>Address</a> */}
-              <a href="/#"> PARIVAT PATTYA, SURAT, GUJRAT</a>
+              <a> PARIVAT PATTYA, SURAT, GUJRAT</a>
             </div>
             <div className="contact-supplier">
               <FaTelegramPlane />
-              <a href="/#">Contact Supplier</a>
+              <a>Contact Supplier</a>
             </div>
 
             <div className="border"></div>

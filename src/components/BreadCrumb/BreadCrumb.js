@@ -7,13 +7,13 @@ function BreadCrumb() {
   return (
     <>
       <div className="breadcrumb">
-        <a href="/#">
+        <a>
           Medical Darpan <AiOutlineRight />
         </a>
-        <a href="/#">
+        <a>
           Search <AiOutlineRight />
         </a>
-        <a href="/#">
+        <a>
           {" "}
           <strong>FabiFlue Tablet</strong>{" "}
         </a>

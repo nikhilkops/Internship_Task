@@ -7,13 +7,8 @@ function ResultText() {
     <>
       <section className="Results">
         <div className="search-result">
-          <a className="main-search" href="/#">
-            Paracetamol
-          </a>
-          <a className="no-of-products" href="/#">
-            {" "}
-            (128 products)
-          </a>
+          <a className="main-search">Paracetamol</a>
+          <a className="no-of-products"> (128 products)</a>
         </div>
 
         <div className="tags">
@@ -21,7 +16,7 @@ function ResultText() {
             {tags.map((val, i) => {
               return (
                 <li className="tag" key={val + i}>
-                  <a href="/#">{val} &#10005;</a>
+                  <a>{val} &#10005;</a>
                 </li>
               );
             })}

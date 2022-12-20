@@ -25,7 +25,7 @@ function Left() {
                             : "non-highlight"
                         }
                       >
-                        <a href="/#"> {item}</a>
+                        <a> {item}</a>
                       </li>
                     );
                   })}
