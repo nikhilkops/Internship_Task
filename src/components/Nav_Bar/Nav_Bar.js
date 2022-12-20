@@ -18,7 +18,9 @@ function Nav_Bar() {
               {list.map((val, j) => {
                 return (
                   <li key={val + j}>
-                    <a className="main-nav-link">{val}</a>
+                    <a href="/#" className="main-nav-link">
+                      {val}
+                    </a>
                   </li>
                 );
               })}
