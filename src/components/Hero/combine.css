@@ -1,0 +1,6 @@
+.combine-hero {
+  display: flex;
+  gap: 120px;
+
+  padding-top: 20px;
+}

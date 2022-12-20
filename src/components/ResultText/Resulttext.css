@@ -1,0 +1,44 @@
+.main-search {
+  font-size: 20px;
+}
+
+.search-result {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  padding: 8px 10px;
+  margin-right: 5px;
+}
+
+.no-of-products {
+  font-size: 15px;
+}
+
+.tags {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.tag {
+  background: #00a69c;
+  display: flex;
+  gap: 5px;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 8px;
+
+  font-size: 5px;
+}
+
+.Results {
+  display: flex;
+  align-items: center;
+}
+
+.remove-tags {
+  color: #750b0b;
+  font-weight: bold;
+}
